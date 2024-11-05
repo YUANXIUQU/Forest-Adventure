@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa9410e123f3cf48a9e345941fa6206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
   ways: {fileID: 0}
   waypoints: []
 --- !u!114 &4229996821043770587
@@ -617,5 +617,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnpoint: {fileID: 0}
-  lives: 3
-  speed: 10
+  player: {fileID: 0}
+  cameraShake: {fileID: 0}

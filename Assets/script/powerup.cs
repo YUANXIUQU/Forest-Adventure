@@ -13,6 +13,7 @@ public class powerup : MonoBehaviour
            Destroy(gameObject);
            Destroy(sign_text);
            buff.Apply(other.gameObject);
+           
         }
     }
 }

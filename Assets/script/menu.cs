@@ -8,6 +8,7 @@ public class menu : MonoBehaviour
     public GameObject start_menu;
     public GameObject lose_info;
     public GameObject win_info;
+    public GameObject dialogbox;
     public timecount timecount;
     void Start()
     {
@@ -18,6 +19,7 @@ public class menu : MonoBehaviour
     }
     public void PlayGame()
     {
+        dialogbox.SetActive(true);
         timecount.GetComponent<timecount>().Startgametime();
         Time.timeScale = 1;
         start_menu.SetActive(false);
